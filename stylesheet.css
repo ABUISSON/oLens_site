@@ -1,0 +1,96 @@
+
+/* Customisation de la navbar */
+.navbar-custom {
+    background-color: #ff3801;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,1);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* Changer couleur du toggler */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(“data:image/svg+xml;..”);
+ }
+
+
+/* Customisation du contenu */
+.well {
+  display: flex;
+  align-items: center;
+}
+
+h1.title{
+  color : #ff3801;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+  line-height: 85%;
+  font: bold;
+}
+
+header.masthead {
+  position: relative;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.body_LP{
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #e3e3e8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.button_main {
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button_main:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
